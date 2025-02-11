@@ -1,0 +1,26 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+stocks/
+
+# Ignore Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+.DS_Store
+
+# Ignore data files and outputs
+closing_prices.png
+stock_data.xlsx
+
+# Ignore system-specific files
+Thumbs.db
